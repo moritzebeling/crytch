@@ -13,8 +13,8 @@ function embedresource($res,$min=0){
 		$debug = '_debug';
 		$minify = '';
 	}
-	if($res == 'crytch'){ echo "<script defer type=\"text/javascript\" src=\"".BASEURL."/v/".CRYTCH_VERSION."/crytch".$debug.$minify.".js\"></script>"; }
-	if($res == 'decrypt'){ echo "<script defer type=\"text/javascript\" src=\"".BASEURL."/v/".CRYTCH_VERSION."/decrypt".$debug.$minify.".js\"></script>"; }
+	if($res == 'crytch'){ echo "<script defer type=\"text/javascript\" src=\"".BASEURL."/v/".CRYTCH_VERSION."/crytch".$debug.$minify.".js?v=3\"></script>"; }
+	if($res == 'decrypt'){ echo "<script defer type=\"text/javascript\" src=\"".BASEURL."/v/".CRYTCH_VERSION."/decrypt".$debug.$minify.".js?v=3\"></script>"; }
 }
 
 
